@@ -18,6 +18,7 @@ namespace DataAccess.Concrete.EntityFramework
 
         public DbSet<Product> Products { get; set; }     //Db deki Product kolonu Products a
         public DbSet<Category> Categories { get; set; } //Db deki Category kolunu Categories e bağlanıyor
-        public DbSet<Customer> Customers { get; set; } //Db deki Customer kolonu Customers e 
+        public DbSet<Customer> Customers { get; set; } //Db deki Customer kolonu Customers e
+        public DbSet<Order> Orders { get; set; } 
     }
 }
